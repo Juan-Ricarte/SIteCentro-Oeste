@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body{
+    margin: 0;
+    
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 0pt;
+    
+}
+
+.left-login >h1{
+    color: goldenrod;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100pt;
+    width: 4vw;
+    align-items: center;
+    margin: 0;
+
+}
+
+.left-login >ul{
+    color: goldenrod;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100pt;
+    border: none;
+    margin: 0;
+}
+
+.left-login >p{
+    color: goldenrod;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50pt;
+    margin: 0;
+
+}
+
+.left-login-imagem{
+    width: 20vw;
+    
+
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login{
+    width: 120%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background:#181818 ;
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px #E3B04B ;
+    
+}
+
+.card-login >h1{
+    color: goldenrod;
+    font-family: 'Satisfy', cursive;
+
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0px;
+}
+
+.textfield >input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #1A1C20 ;
+    color: whitesmoke;
+    font-size: 12pt;
+    box-shadow: 3px 2px 12px #E3B04B ;
+    outline: none;
+    box-sizing: border-box;
+    font-family: -apple-system;
+
+}
+
+.textfield >label{
+    color: #BF9742;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #DAB88B;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #E3B04B;
+    box-shadow: 0px 10px 4px 2px  black;
+    cursor: pointer;
+    background: #0F0F0F;
+}
