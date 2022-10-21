@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@font-face {
+    font-family: lOGO;
+    src: url(Howell\ Rode.ttf);
+  }
 
 body{
     margin: 0;
@@ -27,9 +32,9 @@ body{
 
 .left-login >h1{
     color: goldenrod;
-    font-family: 'Dancing Script', cursive;
-    font-size: 100pt;
-    width: 4vw;
+    font-family: LOGO;
+    font-size: 180pt;
+    font-weight: 20;
     align-items: center;
     margin: 0;
 
@@ -92,6 +97,8 @@ body{
     justify-content: flex-start;
     align-items: flex-start;
     margin: 10px 0px;
+    font-weight: 900;
+    font-size: larger;
 }
 
 .textfield >input{
@@ -112,6 +119,7 @@ body{
 .textfield >label{
     color: #BF9742;
     margin-bottom: 10px;
+
 }
 
 .textfield > input::placeholder{

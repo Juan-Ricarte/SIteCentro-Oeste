@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+.pacote{
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    border: 0;
+}
+
+.logo, .sociais{
+    width: 90%;
+}
+
+.menu{
+    width: 50%;
+}
+
+.logo-bia{
+    width: 20vw;
+    height: 30vh;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+
+}
+
+.menu nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 20px;
+    position: relative;
+    
+}
+
+.menu nave a::after{
+    content: "  ";
+    width: 30px;
+    height: 4px;
+    background-image: linear-gradient(45deg,gold,goldenrod,blue);
+}
+
+.sociais button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+    background-image: linear-gradient(45deg,gold,goldenrod);
+
+}
+
+.sociais button i {
+    font-size: 20px;
+    cursor: pointer;
+
+}
