@@ -6,12 +6,14 @@
   }
 
 body{
+    width: 100%;
+
     margin: 0;
     
 }
 
 .main-login{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background: #02377e;
     display: flex;
@@ -21,8 +23,9 @@ body{
 }
 
 .left-login{
-    width: 50vw;
-    height: 80vh;
+
+    width: 100vw;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,14 +61,15 @@ body{
 }
 
 .left-login-imagem{
-    width: 40vw;
+    width: 60vw;
+    height: 35vh;
     
 
 }
 
 .right-login{
-    width: 50vw;
-    height: 100vh;
+    width: 30vw;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,13 +78,12 @@ body{
 
 .card-login{
     width: 120%;
-    height: 40vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: ;
     border-radius: 20px;
     box-shadow: 3px 5px 20px #b4912f ;
     
@@ -88,7 +91,11 @@ body{
 
 .card-login >h1{
     color: #38b6ff;
-    font-family: 'Satisfy', cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    font-weight: 900;
+    margin-top: 100;
+
 
 }
 
@@ -103,10 +110,10 @@ body{
 }
 
 .textfield >input{
-    width: 100%;
+    width: 20vw;
     border: none;
     border-radius: 10px;
-    padding: 15px;
+    padding: 20px;
     background: #1A1C20 ;
     color: whitesmoke;
     font-size: 12pt;
@@ -119,23 +126,24 @@ body{
 
 .textfield >label{
     color: #b4912f;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: 10;
 
 }
 
 .textfield > input::placeholder{
-    color: #b4912f;
+    color: aliceblue;
 }
 
 .btn-login{
-    width: 100%;
+    width: 60%;
     padding: 16px 0px;
     margin: 25px;
     border: none;
     border-radius: 8px;
     outline: none;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 1500pt;
     letter-spacing: 4px;
     color: #b4912f;
     box-shadow: 0px 10px 4px 2px  black;

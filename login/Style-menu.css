@@ -7,18 +7,20 @@
 }
 
 .pacote{
-    max-width: 1080px;
+    max-width: 100%;
+    border: none;
+    margin: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 0;
+    gap: 10px;
 
 }
 
 header{
     background-color: #02377e;
     width: 100%;
-    height: 10vh;
     margin: 0;
     border: 0;
 }
@@ -28,17 +30,22 @@ header{
     width: 50%;
 }
 
-.logo-bia{
+.logo{
     width: 20vw;
-    height: 30vh;
+    height: 10vh;
     border: none;
     margin: 0;
     cursor: pointer;
 
 }
 
+.logo-centro{
+    width: 30%;
+    height: 100%;
+}
+
 .menu nav a{
-    color: aliceblue;
+    color:aliceblue;
     text-decoration: none;
     padding-right: 50px;
     font-size: 20px;
@@ -46,12 +53,23 @@ header{
     
 }
 
-.menu nave a::after{
-    content: "  ";
-    width: 30px;
+.menu nav a::after{
+    content: " ";
+    width: 0%;
     height: 4px;
-    background-image: linear-gradient(45deg,gold,goldenrod,blue);
+    background-color:goldenrod;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s ease-in-out;
+
 }
+
+.menu nav a:hover::after{
+    width: 100%;
+    
+}
+
 
 .sociais button{
     width: 40px;
