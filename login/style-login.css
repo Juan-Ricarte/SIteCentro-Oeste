@@ -107,6 +107,7 @@ body{
     margin: 10px 0px;
     font-weight: 900;
     font-size: larger;
+    position: relative;
 }
 
 .textfield >input{
@@ -149,4 +150,44 @@ body{
     box-shadow: 0px 10px 4px 2px  black;
     cursor: pointer;
     background: #0F0F0F;
+}
+
+
+.Wrapper{
+    width: 500px;
+    height: 70px;
+    position: relative;
+
+}
+
+.Wrapper input{
+    background: #1A1C20 ;
+    width: 100%;
+    height: 100%;
+    border: 30px solid #1A1C20 ;
+    border-radius: 5px;
+    padding-left: 8px;
+    color: #b4912f ;
+
+}
+
+label{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    transition: all .8s ease;
+    font-size: 20px;
+    pointer-events: none;
+    color: #b4912f ;
+    font-family: poppins;
+
+}
+
+input:focus + label,
+input:valid + label{
+    font-size: 15px;
+    top:0;
+    background-color: black;
+    padding: 5px;
 }
