@@ -94,7 +94,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
     font-weight: 900;
-    margin-top: 100;
+    top: -60px;
 
 
 }
@@ -119,26 +119,28 @@ body{
 
 .Wrapper{
     width: 400px;
-    height: 120px;
+    height: 100px;
     position: relative;
     padding: 20px;
+    padding-left: 5px;
 
     
 
 }
 
 .Wrapper input{
-    background: #1A1C20 ;
+    background: #0f0f0f;
     width: 100%;
     height: 100%;
-    border: 30px solid #1A1C20 ;
+    border: 15px solid #0F0F0F ;
     border-radius: 9px;
-    padding-left: 5px;
-    color: #b4912f ;
-    border-spacing: 50pt;
-    word-spacing: 40pt;
+    padding-left: 100px;
+    color: white;
     letter-spacing: 2pt;
     padding: 2px;
+    box-shadow: 0px 4px 2px 0px  black;
+    font-weight: 10;
+
 
 }
 
@@ -150,8 +152,10 @@ label{
     transition: all .8s ease;
     font-size: 20px;
     pointer-events: none;
-    color: #b4912f ;
-    font-family: poppins;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1.45pt;
+    
 
 }
 
@@ -159,6 +163,7 @@ input:focus + label,
 input:valid + label{
     font-size: 15px;
     top:0;
-    background-color: black;
-    padding: 5px;
+    background-color: none;
+    padding: 2px;
+    
 }
