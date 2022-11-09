@@ -21,6 +21,7 @@
 .slide{
     width: 25%;
     position: relative;
+    transition: 2s;
 }
 
 .slide img{
@@ -34,7 +35,7 @@
     margin-top: -40px;
     display: flex;
     justify-content: center;
-    background-color: blue;
+
 }
 
 .manual-btn{
@@ -43,7 +44,6 @@
     border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
-    background-color: aqua
 
 }
 
@@ -56,6 +56,71 @@
 }
 
 #radio1:checked ~ .first{
-    margin-left: -25%;
+    margin-left: 0%;
 
 }
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio6:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio7:checked ~ .first{
+    margin-left: -25%;
+}
+
+.navigation-automatic{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-automatic div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-automatic .autom-btn1{
+    background-color: blueviolet;
+}
+
+#radio2:checked ~ .navigation-automatic .autom-btn2{
+    background-color: blueviolet;
+}
+
+#radio3:checked ~ .navigation-automatic .autom-btn3{
+    background-color: blueviolet;
+}
+
+#radio4:checked ~ .navigation-automatic .autom-btn4{
+    background-color: blueviolet;
+}
+
+#radio5:checked ~ .navigation-automatic .autom-btn5{
+    background-color: blueviolet;
+}
+
+#radio6:checked ~ .navigation-automatic .autom-btn6{
+    background-color: blueviolet;
+}
+
+#radio7:checked ~ .navigation-automatic .autom-btn7{
+    background-color: blueviolet;
+}
+
