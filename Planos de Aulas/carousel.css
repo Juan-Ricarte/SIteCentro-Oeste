@@ -1,0 +1,116 @@
+.container{
+    width:99.5% ;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.container .top10-carousel{
+    max-width: 99.9%;
+}
+.top10-carousel{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    scroll-behavior: smooth;
+    align-items: center;
+    height: 465px;
+    margin-top: 0px;
+    padding-left: 12.5px;
+}
+.carousel{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    scroll-behavior: smooth;
+    align-items: center;
+    height: 400px;
+    padding-left: 13px;
+    padding-right: 15px;
+}
+.top10-show{
+    height: 400px;
+    width: 267px;
+    flex: none;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative ;
+    border-radius: 16px;
+    margin: 5.6px;
+}
+.show{
+    flex: none;
+    overflow: hidden;
+    cursor: pointer;
+    position: static ;
+    border-radius: 16px;
+    padding: 3px;
+}
+.image{
+    border-radius: 16px;
+    height: 100%;
+}
+.img-tittle{
+    display: inline-block;
+    position: relative;
+    height: 330;
+    width: 220;
+}
+.top10-show:hover{
+    transform: scale(1.09,1.09);
+    transition: 750ms
+}
+.show:hover{
+    transform: scale(1.16,1.16);
+    transition: 750ms;
+}
+.buttons-wrapper{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+.slider-arrow{
+    background-color: transparent;
+    border: none;
+    cursor: pointer; 
+    right: 0px;
+}
+
+.first-arrow{
+    transform: scaleX(-1);
+    margin-left: 8px;
+    margin-right: 5px;
+}
+.second-arrow{
+    width: 100px;
+    padding-left: 10px;
+}
+
+.no-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    color: #AAA;
+    font-size: 16px;
+   
+}
+.no-data p {
+    text-align: center;
+    /*width:270px;*/
+    
+    padding: 12px;
+    font-weight: 700;
+    border-radius: 12px;
+}
+.discover-icon{
+    font-size: 7rem;
+}
+.link-discover{
+    color: #AAA;
+    text-decoration: none;
+}
+.link-discover:hover{
+    color: #700B97;
+}
