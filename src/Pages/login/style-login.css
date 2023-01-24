@@ -25,12 +25,13 @@ body{
 .left-login{
 
     width: 100vw;
-    height: 50vh;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     letter-spacing: 0pt;
+
     
 }
 
@@ -61,15 +62,16 @@ body{
 }
 
 .left-login-imagem{
-    width: 60vw;
-    height: 35vh;
+    justify-content: first baseline;
+    width: 40vw;
+    height: 25vh;
     
 
 }
 
 .right-login{
-    width: 30vw;
-    height: 80vh;
+    width: 25vw;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +92,7 @@ body{
 }
 
 .card-login >h1{
-    color: #38b6ff;
+    color: #b4912f ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
     font-weight: 900;
@@ -118,7 +120,7 @@ body{
 
 
 .Wrapper{
-    width: 400px;
+    width: 300px;
     height: 100px;
     position: relative;
     padding: 20px;
@@ -150,7 +152,7 @@ label{
     left: 15px;
     transform: translateY(-50%);
     transition: all .8s ease;
-    font-size: 20px;
+    font-size: 15px;
     pointer-events: none;
     color: white;
     font-family: 'Anton', sans-serif;
@@ -161,7 +163,7 @@ label{
 
 input:focus + label,
 input:valid + label{
-    font-size: 15px;
+    font-size: 10px;
     top:0;
     background-color: none;
     padding: 2px;
