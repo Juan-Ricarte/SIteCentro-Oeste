@@ -1,0 +1,12 @@
+.main_contato{
+    width: 100%;
+    height: 100%;
+}
+
+.under >h1 {
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    color: #b4912f;
+}
