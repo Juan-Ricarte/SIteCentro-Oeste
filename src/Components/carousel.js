@@ -1,4 +1,9 @@
-
+import React, { useEffect, useState, useRef } from "react";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import "./carousel.css";
+import sliderArrow from "../../assets/image/sliderArrow.png";
+import { MdOutlineScreenSearchDesktop } from 'react-icons/md'
 
 export default function Carousel({
   url,

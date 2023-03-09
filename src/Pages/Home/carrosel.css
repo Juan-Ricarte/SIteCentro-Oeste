@@ -90,11 +90,4 @@
     background-color: blueviolet;
 }
 
-#radio6:checked ~ .navigation-automatic .autom-btn6{
-    background-color: blueviolet;
-}
-
-#radio7:checked ~ .navigation-automatic .autom-btn7{
-    background-color: blueviolet;
-}
 
