@@ -5,18 +5,18 @@
 <h2 align= "center">Centro Oeste</h2>
 
 <br>
-<h3 align="center">
+<h3 >
 Preview - Tela Login (Desktop)
 </h3>
-
-![tela login ](https://user-images.githubusercontent.com/96394878/234161610-86c8f9f3-42bf-40d1-aa76-6eddfeb561f1.png)
 <br>
+<img  src="https://user-images.githubusercontent.com/96394878/236103936-de05615a-1a86-4056-88f7-04b7277dad81.png">
 <br>
-<h3 align="center">
+<h3>
 Preview - Tela Aluno (Desktop)
 </h3>
 
-![login aluno](https://user-images.githubusercontent.com/96394878/236103260-1a334ada-d466-494a-b5db-f4ecac17dea0.png)
+<img src="https://user-images.githubusercontent.com/96394878/236103260-1a334ada-d466-494a-b5db-f4ecac17dea0.png ">
+
 
 
 
